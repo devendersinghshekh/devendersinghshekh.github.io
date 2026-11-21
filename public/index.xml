@@ -6,45 +6,17 @@
     <description>Recent content on Devender ✦ ݁˖</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 14:01:34 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 19:20:10 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Demo</title>
-      <link>http://localhost:1313/notes/demo/</link>
-      <pubDate>Fri, 13 Nov 2026 14:01:34 +0530</pubDate>
-      <guid>http://localhost:1313/notes/demo/</guid>
-      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
-&lt;p&gt;Welcome to my blog!&lt;/p&gt;
-&lt;p&gt;This is my first post built using Hugo and the PaperMod theme.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ll be sharing my projects, technical learnings, and experiences here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kafka Consumer Groups: Quick Notes</title>
-      <link>http://localhost:1313/notes/kafka-consumer-groups/</link>
-      <pubDate>Tue, 10 Nov 2026 20:15:00 +0530</pubDate>
-      <guid>http://localhost:1313/notes/kafka-consumer-groups/</guid>
-      <description>How consumer groups split partitions, what a rebalance really does, and the offset settings that bit me.</description>
-    </item>
-    <item>
-      <title>Real-Time Clickstream Pipeline</title>
-      <link>http://localhost:1313/projects/clickstream-pipeline/</link>
-      <pubDate>Wed, 28 Oct 2026 18:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/projects/clickstream-pipeline/</guid>
-      <description>An end-to-end pipeline that ingests website click events, processes them in near real time, and serves analytics tables.</description>
-    </item>
-    <item>
-      <title>Intro to Apache Airflow for Data Pipelines</title>
-      <link>http://localhost:1313/talks/airflow-for-data-pipelines/</link>
-      <pubDate>Sun, 20 Sep 2026 16:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/talks/airflow-for-data-pipelines/</guid>
-      <description>A 30-minute campus talk on why orchestration matters and how to build your first reliable DAG.</description>
-    </item>
-    <item>
-      <title>Parquet vs ORC vs Avro: A Small Benchmark</title>
-      <link>http://localhost:1313/research/parquet-vs-orc-vs-avro/</link>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0530</pubDate>
-      <guid>http://localhost:1313/research/parquet-vs-orc-vs-avro/</guid>
-      <description>Comparing file size and query time across three big-data file formats on a synthetic event dataset. Sample entry with illustrative numbers.</description>
+      <title>Making of my first blog/portfolio</title>
+      <link>http://localhost:1313/talks/first_entry/</link>
+      <pubDate>Sat, 21 Nov 2026 19:20:10 +0530</pubDate>
+      <guid>http://localhost:1313/talks/first_entry/</guid>
+      <description>&lt;h1 id=&#34;привет-3&#34;&gt;Привет &amp;lt;3&lt;/h1&gt;
+&lt;p&gt;I sure had fun setting up my very first blog site! xD&lt;/p&gt;
+&lt;p&gt;I stumbled upon someone who was using a static site generator to host their blogs and showcase their projects, and I thought, &lt;em&gt;why I don&amp;rsquo;t have one for myself yet..?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Being a minimalist, I went with a simple theme and, of course, made a few tweaks here and there to give it my own touch before finally setting everything up and deploying it through GitHub Pages.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
