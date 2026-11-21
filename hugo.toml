@@ -1,0 +1,43 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Devender ✦ ݁˖"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  mainSections = ["notes", "projects", "talks", "research"]
+  
+  [params.homeInfoParams]
+    Title = "Data for this generation is as precious as the gold..."
+    Content = "or so the experts say. Hi, there! I am a self-trained Data analyst/engineer who likes to use my skills to answer my curiosity or find answers for the questions which can be answered with data."
+    
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/devendersinghshekh/"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/devender-singh-shekhawat-7296a633a"
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 1
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+[[menu.main]]
+  name = "Talks"
+  url = "/talks/"
+  weight = 3
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 4

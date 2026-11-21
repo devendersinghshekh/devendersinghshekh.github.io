@@ -1,0 +1,84 @@
+/* Compact prev/next post navigation */
+/* ---------- Homepage intro: photo | divider | text ---------- */
+.home-info {
+  display: grid;
+  grid-template-columns: 160px 2px 1fr;
+  column-gap: 32px;
+  align-items: start;
+  min-height: 0;
+}
+
+/* photo (left) */
+.home-info::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  background: url("/images/profile.jpeg") center / cover no-repeat;
+}
+
+/* vertical divider */
+.home-info::after {
+  content: "";
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: stretch;
+  background: var(--border);
+}
+
+/* title + text (right) */
+.home-info .entry-header  { grid-column: 3; grid-row: 1; }
+.home-info .entry-content { grid-column: 3; grid-row: 2; }
+
+/* social icons sit under the photo */
+.home-info .entry-footer  { grid-column: 1; grid-row: 3; justify-self: center; }
+.home-info .social-icons  { justify-content: center; padding-top: 14px; }
+
+/* phones: stack everything, hide the divider */
+@media (max-width: 700px) {
+  .home-info { grid-template-columns: 1fr; row-gap: 16px; }
+  .home-info::before { grid-column: 1; grid-row: 1; width: 110px; height: 110px; }
+  .home-info::after  { display: none; }
+  .home-info .entry-header  { grid-column: 1; grid-row: 2; }
+  .home-info .entry-content { grid-column: 1; grid-row: 3; }
+  .home-info .entry-footer  { grid-column: 1; grid-row: 4; justify-self: start; }
+}
+.paginav {
+  gap: 8px;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.paginav a {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 48%;
+  padding: 6px 12px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.paginav .prev { margin-right: auto; align-items: flex-start; }
+.paginav .next { margin-left: auto; align-items: flex-end; text-align: right; }
+
+.paginav a br { display: none; }
+
+/* one line per button, long titles get cut off with an ellipsis */
+.paginav a span {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.paginav .title { font-size: 0.65rem; }
